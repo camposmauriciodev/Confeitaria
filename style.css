@@ -40,3 +40,9 @@ img{
     height: 300px;
     object-fit: cover;
 }
+
+/* Exemplo com classe no CSS */
+.sobre-nos{
+    width: 80%;
+    text-align: center;
+}
