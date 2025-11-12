@@ -7,6 +7,9 @@ header{
     background-color: #d3af6c;
     color: white;
     height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 header h1{
