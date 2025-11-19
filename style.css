@@ -43,7 +43,7 @@ img{
 
 /* Exemplo com classe no CSS */
 .sobre-nos{
-    width: 100%;
+    width: 95%;
     text-align: center;
     padding: 20px;
 }
@@ -57,4 +57,27 @@ img{
     display: flex;
     justify-content: center;
     margin-top: 20px;
+}
+
+.item-cardapio{
+    display: flex;
+}
+
+.descricao{
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #555;
+}
+
+.img-item{
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+h3{
+    margin-bottom: 10px;
+    color: #d3af6c;
+    font-size: 18px;
 }
