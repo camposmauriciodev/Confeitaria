@@ -60,7 +60,11 @@ img{
 }
 
 .item-cardapio{
-    display: flex;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .descricao{
