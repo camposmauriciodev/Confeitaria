@@ -18,9 +18,9 @@ function criarItemCardapio(titulo, descricao, foto){
     //Adicionando os elementos na div-mãe
     const divC = document.getElementById('cardapio')
 
-    divItemCardapio.appendChild(h3Titulo, pDescricao, img)
-    //divItemCardapio.appendChild(pDescricao)
-    //divItemCardapio.appendChild(img)
+    divItemCardapio.appendChild(h3Titulo)
+    divItemCardapio.appendChild(pDescricao)
+    divItemCardapio.appendChild(img)
 
     divC.appendChild(divItemCardapio)
 }
