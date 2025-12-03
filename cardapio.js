@@ -2,7 +2,7 @@
 const API_URL = 'https://confeitaria-api-18ek.onrender.com/cardapio';
 
 // Função para criar os elementos do HTML com JavaScript dinamicamente
-function criarItemCardapio(titulo, descricao, foto ){
+function criarItemCardapio(titulo, descricao, foto){
     const divItemCardapio = document.createElement('div')
     divItemCardapio.className = 'item-cardapio'
 
@@ -48,7 +48,7 @@ function carregarCardapio() {
                 data.forEach(item => {
                     // Assumindo que cada item tem as propriedades: titulo, descricao e foto
                     // Se a API estiver funcionando, ela deve retornar um objeto com essas chaves
-                    criarItemCardapio(item.titulo, item.descricao, item.foto);
+                    criarItemCardapio(item.nome, item.descricao, item.foto);
                 });
             } else {
                 console.error("Os dados da API não estão no formato de array esperado.", data);
